@@ -1,0 +1,27 @@
+*Textann.txt* A short multi line description of your plugin
+
+===============================================================================
+CONTENTS                                                              *Textann*
+
+    1. Intro .................................................. |Textann-intro|
+    2. Requirements .................................... |Textann-requirements|
+    3. Usage .................................................. |Textann-usage|
+    4. Licence .............................................. |Textann-licence|
+===============================================================================
+1. Intro                                                        *Textann-intro*
+
+This plugin is designed to help text annotations. 
+
+2. Requirements                                          *Textann-requirements*
+
+What additional programs are required to run the plugin
+
+3. Usage                                                        *Textann-usage*
+
+How to use the plugin. What functions does it give the user?
+
+4. Licence                                                    *Textann-licence*
+
+This is open source make sure to include a licence
+
+vim:ft=help
