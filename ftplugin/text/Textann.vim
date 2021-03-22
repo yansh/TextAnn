@@ -9,7 +9,6 @@
 "  Function(s)
 " --------------------------------
 "check if variable is defined
-
 if exists('g:shortcuts') == 0
    let g:shortcuts = {'S': 1,'A':2,'U':3,'R':4,'T':5}   
 endif  
@@ -106,7 +105,7 @@ str_labels =",".join("'{0}'".format(w) for w in list(labels.keys()))
 vim.command("call popup_menu(["+str_labels+"],#{filter: 'MyMenuFilter', callback:'MenuCB',})")
 
 endPython
-endfunction                          
+endfunction      
 
 " --------------------------------
 "  Expose our commands to the user
