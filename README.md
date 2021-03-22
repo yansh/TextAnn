@@ -1,4 +1,4 @@
-# TextAnn
+![GitHub Logo](/TextAnn.png)
 
 
 ## Installation
