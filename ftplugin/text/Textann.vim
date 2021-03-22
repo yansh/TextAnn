@@ -28,10 +28,6 @@ func MyMenuFilter(id, key)
 		 endif
 	    let idx += 1      
 	    endfor  
-        #  if has_key(g:shortcuts, a:key)
-        #     call popup_close(a:id, g:shortcuts[a:key])
-         #    return 1
-         # endif
         
 
           " No shortcut, pass to generic filter
@@ -78,7 +74,6 @@ labels = vim.eval("g:labels")
 print(r, labels)	
 if int(r)-1 < len(labels):
    tag = list(labels.values())[int(r)-1]    
-   print(tag)
    vim.command("call WrapTag('"+tag+"')")   
 
 endPython
