@@ -1,5 +1,11 @@
 ![GitHub Logo](/TextAnn.png)
 
+TextAnn in a multi-purpose text annotation vim plugin. 
+
+## Requirements
+
+* Python 3.X
+* version of Vim 8.2 or higher
 
 ## Installation
 
