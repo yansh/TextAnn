@@ -9,9 +9,6 @@
 "  Function(s)
 " --------------------------------
 "check if variable is defined
-if exists('g:shortcuts') == 0
-   let g:shortcuts = {'S': 1,'A':2,'U':3,'R':4,'T':5}   
-endif  
 if exists('g:labels') == 0
 	let g:labels = {"[S]ender":'S',	"[A]ttribute":"A", "[R]]cipient":"R", "S[u]bject":"U", 	"[T]P": "T"}  
 
@@ -69,9 +66,8 @@ import vim
 r = vim.eval("a:result")
 
 labels = vim.eval("g:labels")
-#for key, value in shortcuts.items():
-	#print(key, value, r)
-print(r, labels)	
+
+
 if int(r)-1 < len(labels):
    tag = list(labels.values())[int(r)-1]    
    vim.command("call WrapTag('"+tag+"')")   
