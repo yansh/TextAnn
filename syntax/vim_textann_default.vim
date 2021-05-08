@@ -12,6 +12,9 @@ syn match attribute "<A>.\{-}<\/A>"  contains=ALL contained
 syn match subject "<U>.\{-}<\/U>"  contains=ALL contained
 syn match recipient "<R>.\{-}<\/R>"  contains=ALL contained
 syn match TP  "<T>\_.\{-}<\/T>"   contains=ALL contained
+syn match Comment  "<<<\_.\{-}>>>"   contains=ALL contained
+
+
 
 
 "syn region inBold concealends matchgroup=bTag start="<S>" end="</S>"
@@ -26,6 +29,7 @@ hi def link attribute Comment
 hi def link subject Statement 
 hi def link recipient Type
 hi def link TP Constant
+hi def link Comment  LightGray
 hi textpattern cterm=bold,underline
 
 " we need the conceal feature (vim ≥ 7.3)
