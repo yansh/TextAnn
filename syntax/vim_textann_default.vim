@@ -26,11 +26,7 @@ hi f_region  ctermfg=green
 hi r_region  ctermfg=red
 "hi r_region2  ctermfg=Gray
 
-<<<<<<< HEAD
-hi sender   ctermfg=Gray
-=======
-hi sender ctermfg=Gray
->>>>>>> 7fb6fb59aaa38631363315759ae4c87dd86d96c9
+hi sender   ctermfg=Blue
 hi def link attribute Comment
 hi def link subject Statement
 hi def link recipient Type
