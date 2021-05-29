@@ -26,7 +26,7 @@ hi f_region  ctermfg=green
 hi r_region  ctermfg=red
 "hi r_region2  ctermfg=Gray
 
-hi def link sender Todo
+hi sender   ctermfg=Gray
 hi def link attribute Comment
 hi def link subject Statement
 hi def link recipient Type
@@ -55,4 +55,3 @@ call matchadd('Conceal', '</U>', 0, -1, {'conceal': ''})
 
 call matchadd('Conceal', '<T>', 0, -1, {'conceal': ''})
 call matchadd('Conceal', '</T>', 0, -1, {'conceal': ''})
-
