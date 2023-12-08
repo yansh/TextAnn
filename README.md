@@ -26,6 +26,8 @@ Use your plugin manager of choice.
 
 ## Usage
 
+Use case examples:  See these papers [1] [2] for annotations use cases
+
 Configure your labels in your .vimrc:
 
 ```vim
@@ -57,3 +59,12 @@ You can then open a text file to annotate.
 # Credit
 
 This plugin was designed using the excellent [Vim PluginStarter Kit](https://github.com/yansh/vim-plugin-starter-kit)
+
+# References
+
+
+[1] Beyond the text: Analysis of privacy statements through syntactic and semantic role labeling. Shvartzshanider, Y., Balashankar, A., Wies, T., & Subramanian, L. 
+In Proceedings of the natural legal language processing workshop 2023, pages 85–98, Singapore, December, 2023. Association for Computational Linguistics.
+
+[2] Going against the (appropriate) flow: A contextual integrity approach to privacy policy analysis. Shvartzshnaider, Y.; Apthorpe, N.; Feamster, N.; and Nissenbaum, H. 
+In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, volume 7, pages 162–170, 2019
