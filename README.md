@@ -52,3 +52,8 @@ You can then open a text file to annotate.
 [TextAnn Usage Example - Watch Video](https://www.loom.com/share/793d8d0fa1824f67902bc2eeb72f3901)
 
 [![](https://cdn.loom.com/sessions/thumbnails/793d8d0fa1824f67902bc2eeb72f3901-with-play.gif)](https://www.loom.com/share/793d8d0fa1824f67902bc2eeb72f3901)
+
+
+# Credit
+
+This plugin was designed using the excellent [Vim PluginStarter Kit](https://github.com/yansh/vim-plugin-starter-kit)
