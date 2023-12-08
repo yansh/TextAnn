@@ -24,3 +24,31 @@ Use your plugin manager of choice.
   - Run `:PlugInstall`
 
 
+## Usage
+
+Configure your labels in your .vimrc:
+
+```vim
+    let g:labels = {"[S]ender":'S',  
+              \ "[A]ttribute":"A", 
+              \ "[R]]cipient":"R", 
+              \ "S[u]bject":"U", 
+              \ "[T]P": "T",        		 
+              \ "AI[M]": "M",
+              \"[H]edge Modal": "H"}
+```
+
+Set the key to trigger the Parameters pop-up (e.g., Ctrl P)
+    ```
+      map <C-p> :Params<CR>   
+    ```
+
+Set the syntax:
+```
+    set syntax=vim_textann_default   
+```
+You can then open a text file to annotate. 
+
+[TextAnn Usage Example - Watch Video](https://www.loom.com/share/793d8d0fa1824f67902bc2eeb72f3901)
+
+[![](https://cdn.loom.com/sessions/thumbnails/793d8d0fa1824f67902bc2eeb72f3901-with-play.gif)](https://www.loom.com/share/793d8d0fa1824f67902bc2eeb72f3901)
